@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess Page</title>
+    <link rel='stylesheet' href='/stylesheets/guess.css'>
+  </head>
+  <body>
+    <h1>
+        |Guess Page
+    </h1>
+    <form action="" method="post">
+        <div style="font-weight:bold">Your Guess：</div>
+        <div>Draw # #{draw}</div>
+        <div>Bonus：#{balance} ETH</div>
+        <div>Your ID：#{id}</div>
+        <div>Guess Numbers (You can guess between 1 to 10)：</div>
+        <div>Guess Number1：<input type="text" name="user_guess_number1"></div>
+        <div>Guess Number2：<input type="text" name="user_guess_number2"></div>
+        <div>Guess Number3：<input type="text" name="user_guess_number3"></div>
+        <div>Guess Number4：<input type="text" name="user_guess_number4"></div>
+        <div>Guess Number5：<input type="text" name="user_guess_number5"></div>
+        <div>Guess Number6：<input type="text" name="user_guess_number6"></div>
+        <div>Payment：$ <input type="text" name="user_money"></div>
+        <div>Private Key：<input type="text" name="user_private_key"></div>
+        <input type="submit">
+    </form>
+    <p>
+
+    <div style="font-weight:bold">#{title}</div>
+    <div>#{draw2}</div>
+    <div>#{number1}</div>
+    <div>#{number2}</div>
+    <div>#{number3}</div>
+    <div>#{number4}</div>
+    <div>#{number5}</div>
+    <div>#{number6}</div>
+    <div>#{hash}</div>
+    </p>
+    <br>
+    <a href="/lastdraw">
+      |Last Draw Page
+    </a>
+    <br>
+    <a href="/account">
+      |Account Page
+    </a>
+    <br>
+    <a href="/login">
+      |Logout
+    </a>
+    <script src="/javascripts/guess.js" type="text/javascript"></script>
+  </body>
+</html>
